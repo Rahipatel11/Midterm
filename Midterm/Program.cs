@@ -9,6 +9,10 @@
     // Constructor
     public InventoryItem(string itemName, int itemId, double price, int quantityInStock)
     {
+        ItemName = itemName;
+        ItemId = itemId;        
+        Price = price;  
+        QuantityInStock = quantityInStock;
         // TODO: Initialize the properties with the values passed to the constructor.
     }
 
