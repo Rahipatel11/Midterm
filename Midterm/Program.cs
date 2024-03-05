@@ -21,6 +21,7 @@
     // Update the price of the item
     public void UpdatePrice(double newPrice)
     {
+        Price = newPrice;
         // TODO: Update the item's price with the new price.
     }
 
